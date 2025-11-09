@@ -3,40 +3,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Website</title>
     <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Tagesschrift&display=swap" rel="stylesheet">
-
-    <title>Gallery</title>
-</head>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Tagesschrift&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Mallanna&display=swap" rel="stylesheet">
 <body>
-    <div class="navbar">
-         <div class="search-bar">
-            <select class="search-select">
-                <option>All</option>
-            </select>
-            <input placeholder="Search web" class="search-input ">
-            <div class="search-icon">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-         </div>
-        <div class="nav-anchors">
-            <a href="">Visit Gallery</a>
-           
-            <a href="">Random</a>
-            
-           
-            <a href="">suggestions</a>
-            
-            
-        </div>
-        
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#foot">About</a></li>
+        <li><a href="#Gallery">Gallery</a></li>
+        <li><a href="#foot">Team</a></li>
+        <li><a href="#foot">Contact</a></li>
+    </ul>
+</nav>
+<!-- Hero Section -->
+<section class="hero">
+    <h1>Welcome to My Art Gallery</h1>
+    <p>Discover original illustrations and creative visual worlds</p>
+    <a href="#gallery" class="hero-btn">Explore Gallery</a>
+</section>
+
+
+<!-- Category Gallery Buttons -->
+<div class="Gallery" id="Gallery">
+    <a class="items anime" href="#anime-section">Anime</a>
+    <a class="items classic" href="#classic-section">Cars</a>
+    <a class="items universe" href="#universe-section">Universe</a>
+    <a class="items modern" href="#modern-section">Mechs</a>
+    <a class="items games" href="#games-section">Games</a>
+    <a class="items nature" href="#nature-section">Nature</a>
+</div>
+<!-- Tagline Before Sliders -->
+<section class="sub-heading">
+    <h2>Click on any art collection below to view more 👇</h2>
+</section>
+
+
+<!-- Slider Sections -->
+
+
+<section id="anime-section" class="art">
+
+    <h2>Anime</h2>
+    <div class="slider">
+        <a href="#anime1"><img src="https://i.pinimg.com/1200x/82/27/89/822789614e4e37a2787cc28b78c67901.jpg"></a>
+        <a href="#anime2"><img src="https://i.pinimg.com/736x/37/e2/e6/37e2e608d3abf00ffa126b0a1c327e5a.jpg"></a>
+        <a href="#anime3"><img src="https://i.pinimg.com/1200x/f2/c8/8f/f2c88fc6fa539a1e6451ab73f43375f6.jpg"></a>
+        <a href="#anime4"><img src="https://i.pinimg.com/1200x/6a/e6/04/6ae60402d0eedc4495f1a0a60f9a9de6.jpg"></a>
+        <a href="#anime5"><img src="https://i.pinimg.com/736x/ed/85/7e/ed857eef0b085d7fa914398e3a4fbff3.jpg"></a>
+        <a href="#anime6"><img src="https://i.pinimg.com/736x/20/5b/9a/205b9a04154f14b8f37d8cfa9ef495f5.jpg"></a>
+        <a href="#anime7"><img src="https://i.pinimg.com/736x/6c/8b/90/6c8b907a6eb754de5553eda68aa4f2e1.jpg" alt=""></a>
+       
+       
+    </div>
+</section>
+
+<section id="classic-section" class="art">
+    <h2>Cars</h2>
+    <div class="slider">
+        <a href="#classic1"><img src="https://i.pinimg.com/736x/f6/b5/6f/f6b56f1d4f3e91c7101f39df22013f57.jpg"></a>
+        <a href="#classic2"><img src="https://i.pinimg.com/736x/b2/8e/cf/b28ecfa82b814c73c8f481767725a9cf.jpg" alt=""></a>
+        <a href="#classic3"></a><img src="https://i.pinimg.com/736x/57/ca/e4/57cae4fb5cfa085c8f98bfc87db8797f.jpg" alt="">
+        <a href="#classic4"><img src="https://i.pinimg.com/736x/91/79/21/917921a63e75f7fd7ef6da571bcbc8fc.jpg" alt=""></a>
+        <a href="#classic5"><img src="https://i.pinimg.com/736x/07/19/ee/0719eeee4fe543a5cd59d74093fd1a60.jpg" alt=""></a>
+        <a href="#classic6"><img src="https://i.pinimg.com/1200x/6a/83/23/6a8323776a8e66d5475d43ad33b05687.jpg" alt=""></a>
+        <a href="#classic7"><img src="https://i.pinimg.com/736x/71/d7/d0/71d7d015ecb05e7ae8a3eee44f1a9516.jpg" alt=""></a>
+    </div>
+</section>
+
+<section id="universe-section" class="art">
+    <h2>Universe</h2>
+    <div class="slider">
+        <a href="#universe1"><img src="https://i.pinimg.com/736x/21/44/d0/2144d02e5d01b2260fe05c91e9d8ee43.jpg"></a>
+        <a href="#universe2"><img src="https://i.pinimg.com/1200x/09/a2/aa/09a2aa38204d12483c269329915a4a8f.jpg" alt=""></a>
+        <a href="#universe3"><img src="https://i.pinimg.com/736x/96/9f/3c/969f3cdb02802542f04e6130c2a407f3.jpg" alt=""></a>
+        <a href="#universe4"><img src="https://i.pinimg.com/736x/e0/53/fa/e053fa4b055b7d95cdc0e1b180ade668.jpg" alt=""></a>
+        <a href="#universe5"><img src="https://i.pinimg.com/736x/ed/20/99/ed2099cf374e9ff2392d521da94e41f5.jpg" alt=""></a>
+        <a href="#universe6"><img src="https://i.pinimg.com/1200x/45/31/20/4531208270107ab3f3872089cf2ed14e.jpg" alt=""></a>
+        <a href="#universe7"><img src="https://i.pinimg.com/1200x/ee/e5/eb/eee5ebb07fc80f154f12ab532fc46c82.jpg" alt=""></a>
+    </div>
+</section>
+
+<section id="modern-section" class="art">
+    <h2>Mechs</h2>
+    <div class="slider">
+        <a href="#modern1"><img src="https://i.pinimg.com/736x/74/6b/5e/746b5e7076e089f7fbf453748dc4326f.jpg"></a>
+        <a href="#modern2"><img src="https://i.pinimg.com/736x/9c/57/53/9c5753629c984ff5fa2fa15980e06920.jpg" alt=""></a>
+        <a href="#modern3"><img src="https://i.pinimg.com/1200x/5c/13/a1/5c13a1da04e9f18a3d5ba40891deb8b8.jpg" alt=""></a>
+        <a href="#modern4"><img src="https://i.pinimg.com/736x/22/80/63/2280631443d2c08fff88c86a820df252.jpg" alt=""></a>
+        <a href="#modern5"><img src="https://i.pinimg.com/736x/8a/59/a5/8a59a5938a70ec7df80384a39196d299.jpg" alt=""></a>
+        <a href="#modern6"><img src="https://i.pinimg.com/736x/47/87/ff/4787ff8e3f0caa767c338372528a6c46.jpg" alt=""></a>
+        <a href="#modern7"><img src="https://i.pinimg.com/736x/e1/10/2b/e1102bf214c999813f3810471949f1fa.jpg" alt=""></a>
 
     </div>
+</section>
+
+<section id="games-section" class="art">
+    <h2>Games</h2>
+    <div class="slider">
+        <a href="#games1"><img src="https://i.pinimg.com/1200x/04/07/0e/04070e35bc895d324ffb0acd1f8ab668.jpg"></a>
+        <a href="#games2"><img src="https://i.pinimg.com/1200x/6d/bb/48/6dbb4870c95afa8c9c6c36e57864b43f.jpg" alt=""></a>
+        <a href="#games3"><img src="https://i.pinimg.com/1200x/c7/ac/de/c7acdede1455d18ab1dcbad527824ba0.jpg" alt=""></a>
+        <a href="#games4"><img src="https://i.pinimg.com/1200x/be/44/18/be4418f8ee352b1f92135aca954ef625.jpg" alt=""></a>
+        <a href="#games5"><img src="https://i.pinimg.com/1200x/76/fc/6a/76fc6ab1a05d54f649da49b35d18c111.jpg" alt=""></a>
+        <a href="#games6"><img src="https://i.pinimg.com/1200x/b6/f8/79/b6f87927ce1bfd3f156d421a74832396.jpg" alt=""></a>
+        <a href="#games7"><img src="https://i.pinimg.com/1200x/75/b6/ad/75b6adba5fa2cca340cbffd585d935e2.jpg" alt=""></a>
+
+    </div>
+</section>
+
+<section id="nature-section" class="art">
+    <h2>Nature</h2>
+    <div class="slider">
+        <a href="#nature1"><img src="https://i.pinimg.com/736x/19/fc/fb/19fcfbb5debcb7d95a5f73a556a54b39.jpg"></a>
+        <a href="#nature2"><img src="https://i.pinimg.com/1200x/77/01/da/7701dacd6b9bd966e8ec23218f0197a3.jpg" alt=""></a>
+        <a href="#nature3"><img src="https://i.pinimg.com/736x/fc/e3/8a/fce38a052ff59b3d75a287c461c0aea7.jpg" alt=""></a>
+        <a href="#nature4"><img src="https://i.pinimg.com/736x/e5/f2/d5/e5f2d5ae8cd185efa6656bc91cf27edd.jpg" alt=""></a>
+        <a href="#nature5"><img src="https://i.pinimg.com/736x/7d/e7/eb/7de7eba5edb62dd01f09cd36b3906257.jpg" alt=""></a>
+        <a href="#nature6"><img src="https://i.pinimg.com/1200x/8f/4b/b4/8f4bb4b11360e9c1b51df7f0b40fadf4.jpg" alt=""></a>
+        <a href="#nature7"><img src="https://i.pinimg.com/1200x/51/e9/ef/51e9ef835d690ade93b11547d7ab5f71.jpg" alt=""></a>
+    </div>
+</section>
+<!-- Full-Screen Lightbox Views -->
+<div id="anime1" class="lightbox"><a href="#anime-section" class="close"></a><img src="https://i.pinimg.com/1200x/82/27/89/822789614e4e37a2787cc28b78c67901.jpg"></div>
+<div id="anime2" class="lightbox"><a href="#anime-section" class="close"></a><img src="https://i.pinimg.com/736x/37/e2/e6/37e2e608d3abf00ffa126b0a1c327e5a.jpg" alt="😔"></div>
+<div id="anime3" class="lightbox"><a href="#anime-section" class="close"></a><img src="https://i.pinimg.com/1200x/f2/c8/8f/f2c88fc6fa539a1e6451ab73f43375f6.jpg" alt="😔"></div>
+<div id="anime4" class="lightbox"><a href="#anime-section" class="close"></a><img src="https://i.pinimg.com/1200x/6a/e6/04/6ae60402d0eedc4495f1a0a60f9a9de6.jpg" alt="😔"></div>
+<div id="anime5" class="lightbox"><a href="#anime-section" class="close"></a><img src="https://i.pinimg.com/736x/ed/85/7e/ed857eef0b085d7fa914398e3a4fbff3.jpg" alt="😔"></div>
+<div id="anime6" class="lightbox"><a href="#anime-section" class="close"></a><img src="https://i.pinimg.com/736x/20/5b/9a/205b9a04154f14b8f37d8cfa9ef495f5.jpg" alt="😔"></div>
+<div id="anime7" class="lightbox"><a href="#anime-section" class="close"></a><img src="https://i.pinimg.com/736x/6c/8b/90/6c8b907a6eb754de5553eda68aa4f2e1.jpg" alt="😔"></div>
+
+<div id="classic1" class="lightbox"><a href="#classic-section" class="close"></a><img src="https://i.pinimg.com/736x/f6/b5/6f/f6b56f1d4f3e91c7101f39df22013f57.jpg"></div>
+<div id="classic2" class="lightbox"><a href="#classic-section" class="close"></a><img src="https://i.pinimg.com/736x/b2/8e/cf/b28ecfa82b814c73c8f481767725a9cf.jpg"></div>
+<div id="classic3" class="lightbox"><a href="#classic-section" class="close"></a><img src="https://i.pinimg.com/736x/57/ca/e4/57cae4fb5cfa085c8f98bfc87db8797f.jpg"></div>
+<div id="classic4" class="lightbox"><a href="#classic-section" class="close"></a><img src="https://i.pinimg.com/736x/91/79/21/917921a63e75f7fd7ef6da571bcbc8fc.jpg"></div>
+<div id="classic5" class="lightbox"><a href="#classic-section" class="close"></a><img src="https://i.pinimg.com/736x/07/19/ee/0719eeee4fe543a5cd59d74093fd1a60.jpg"></div>
+<div id="classic6" class="lightbox"><a href="#classic-section" class="close"></a><img src="https://i.pinimg.com/1200x/6a/83/23/6a8323776a8e66d5475d43ad33b05687.jpg"></div>
+<div id="classic7" class="lightbox"><a href="#classic-section" class="close"></a><img src="https://i.pinimg.com/736x/71/d7/d0/71d7d015ecb05e7ae8a3eee44f1a9516.jpg"></div>
 
 
-    
+<div id="universe1" class="lightbox"><a href="#universe-section" class="close"></a><img src="https://i.pinimg.com/736x/21/44/d0/2144d02e5d01b2260fe05c91e9d8ee43.jpg"></div>
+<div id="universe2" class="lightbox"><a href="#universe-section" class="close"></a><img src="https://i.pinimg.com/1200x/09/a2/aa/09a2aa38204d12483c269329915a4a8f.jpg"></div>
+<div id="universe3" class="lightbox"><a href="#universe-section" class="close"></a><img src="https://i.pinimg.com/736x/96/9f/3c/969f3cdb02802542f04e6130c2a407f3.jpg"></div>
+<div id="universe4" class="lightbox"><a href="#universe-section" class="close"></a><img src="https://i.pinimg.com/736x/e0/53/fa/e053fa4b055b7d95cdc0e1b180ade668.jpg"></div>
+<div id="universe5" class="lightbox"><a href="#universe-section" class="close"></a><img src="https://i.pinimg.com/736x/ed/20/99/ed2099cf374e9ff2392d521da94e41f5.jpg"></div>
+<div id="universe6" class="lightbox"><a href="#universe-section" class="close"></a><img src="https://i.pinimg.com/1200x/45/31/20/4531208270107ab3f3872089cf2ed14e.jpg"></div>
+<div id="universe7" class="lightbox"><a href="#universe-section" class="close"></a><img src="https://i.pinimg.com/1200x/ee/e5/eb/eee5ebb07fc80f154f12ab532fc46c82.jpg"></div>
+
+<div id="modern1" class="lightbox"><a href="#modern-section" class="close"></a><img src="https://i.pinimg.com/736x/74/6b/5e/746b5e7076e089f7fbf453748dc4326f.jpg"></div>
+<div id="modern2" class="lightbox"><a href="#modern-section" class="close"></a><img src="https://i.pinimg.com/736x/9c/57/53/9c5753629c984ff5fa2fa15980e06920.jpg"></div>
+<div id="modern3" class="lightbox"><a href="#modern-section" class="close"></a><img src="https://i.pinimg.com/1200x/5c/13/a1/5c13a1da04e9f18a3d5ba40891deb8b8.jpg"></div>
+<div id="modern4" class="lightbox"><a href="#modern-section" class="close"></a><img src="https://i.pinimg.com/736x/22/80/63/2280631443d2c08fff88c86a820df252.jpg"></div>
+<div id="modern5" class="lightbox"><a href="#modern-section" class="close"></a><img src="https://i.pinimg.com/736x/8a/59/a5/8a59a5938a70ec7df80384a39196d299.jpg"></div>
+<div id="modern6" class="lightbox"><a href="#modern-section" class="close"></a><img src="https://i.pinimg.com/736x/47/87/ff/4787ff8e3f0caa767c338372528a6c46.jpg"></div>
+<div id="modern7" class="lightbox"><a href="#modern-section" class="close"></a><img src="https://i.pinimg.com/736x/e1/10/2b/e1102bf214c999813f3810471949f1fa.jpg"></div>
+
+<div id="games1" class="lightbox"><a href="#games-section" class="close"></a><img src="https://i.pinimg.com/1200x/04/07/0e/04070e35bc895d324ffb0acd1f8ab668.jpgg"></div>
+<div id="games2" class="lightbox"><a href="#games-section" class="close"></a><img src="https://i.pinimg.com/1200x/6d/bb/48/6dbb4870c95afa8c9c6c36e57864b43f.jpg"></div>
+<div id="games3" class="lightbox"><a href="#games-section" class="close"></a><img src="https://i.pinimg.com/1200x/c7/ac/de/c7acdede1455d18ab1dcbad527824ba0.jpg"></div>
+<div id="games4" class="lightbox"><a href="#games-section" class="close"></a><img src="https://i.pinimg.com/1200x/be/44/18/be4418f8ee352b1f92135aca954ef625.jpg"></div>
+<div id="games5" class="lightbox"><a href="#games-section" class="close"></a><img src="https://i.pinimg.com/1200x/76/fc/6a/76fc6ab1a05d54f649da49b35d18c111.jpg"></div>
+<div id="games6" class="lightbox"><a href="#games-section" class="close"></a><img src="https://i.pinimg.com/1200x/b6/f8/79/b6f87927ce1bfd3f156d421a74832396.jpg"></div>
+<div id="games7" class="lightbox"><a href="#games-section" class="close"></a><img src="https://i.pinimg.com/1200x/75/b6/ad/75b6adba5fa2cca340cbffd585d935e2.jpg"></div>
+
+
+
+
+<div id="nature1" class="lightbox"><a href="#nature-section" class="close"></a><img src="https://i.pinimg.com/736x/19/fc/fb/19fcfbb5debcb7d95a5f73a556a54b39.jpg"></div>
+<div id="nature2" class="lightbox"><a href="#nature-section" class="close"></a><img src="https://i.pinimg.com/1200x/77/01/da/7701dacd6b9bd966e8ec23218f0197a3.jpg"></div>
+<div id="nature3" class="lightbox"><a href="#nature-section" class="close"></a><img src="https://i.pinimg.com/736x/fc/e3/8a/fce38a052ff59b3d75a287c461c0aea7.jpg"></div>
+<div id="nature4" class="lightbox"><a href="#nature-section" class="close"></a><img src="https://i.pinimg.com/736x/e5/f2/d5/e5f2d5ae8cd185efa6656bc91cf27edd.jpg"></div>
+<div id="nature5" class="lightbox"><a href="#nature-section" class="close"></a><img src="https://i.pinimg.com/736x/7d/e7/eb/7de7eba5edb62dd01f09cd36b3906257.jpg"></div>
+<div id="nature6" class="lightbox"><a href="#nature-section" class="close"></a><img src="https://i.pinimg.com/1200x/8f/4b/b4/8f4bb4b11360e9c1b51df7f0b40fadf4.jpg"></div>
+<div id="nature7" class="lightbox"><a href="#nature-section" class="close"></a><img src="https://i.pinimg.com/1200x/51/e9/ef/51e9ef835d690ade93b11547d7ab5f71.jpg"></div>
+
+
+
 </body>
+<footer class="footer" id="foot">
+  <p>© 2025 Designed & Created by <strong>Kaustubh Kashyap</strong></p>
+
+  <div class="social-links">
+    <a href="https://www.youtube.com" target="_blank">📺</a>
+    <a href="https://www.instagram.com" target="_blank">📸</a>
+    <a href="https://github.com" target="_blank">💻</a>
+  </div>
+</footer>
+
 </html>
